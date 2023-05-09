@@ -1,8 +1,9 @@
+"use strict";
 function addValues(n1, n2, cb) {
-    var result = n1 + n2;
+    const result = n1 + n2;
     cb(result);
 }
-var callback = function (res) {
+const callback = (res) => {
     console.log("callback", res);
 };
 addValues(12, 23, callback);

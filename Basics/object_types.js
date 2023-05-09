@@ -1,4 +1,5 @@
-var person = {
+"use strict";
+const person = {
     name: "Parshuram",
     age: 26,
 };

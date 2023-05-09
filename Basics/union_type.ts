@@ -17,3 +17,4 @@ function add(
 console.log(add(22, 22, "as-number"));
 console.log(add("22", "22", "as-number"));
 console.log(add("22", 22, "as-text"));
+console.log(1);

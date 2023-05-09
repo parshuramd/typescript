@@ -1,4 +1,5 @@
-var tuple = [1, ""];
+"use strict";
+const tuple = [1, ""];
 console.log(tuple);
 tuple.push("h"); // keep in mind that we can push here although this is tuple
 console.log(tuple);

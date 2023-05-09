@@ -1,8 +1,8 @@
-var person = {
+"use strict";
+const person = {
     hobbies: ["play", "watch", "see", "read"],
 };
-var hobbies = ["play", "watch", "see", "read"];
-for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
+const hobbies = ["play", "watch", "see", "read"];
+for (const hobby of person.hobbies) {
     console.log(hobby);
 }
